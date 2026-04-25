@@ -2,7 +2,7 @@ import {
   createContext,
   useCallback,
   useContext,
-  useEffect,
+  useLayoutEffect,
   useState,
   type ReactNode,
 } from "react";
@@ -26,7 +26,7 @@ export function ComfortReadingProvider({ children }: { children: ReactNode }) {
     }
   });
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     document.documentElement.classList.toggle("text-size-large", largeText);
     try {
       localStorage.setItem(STORAGE, largeText ? "1" : "0");

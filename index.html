@@ -32,6 +32,20 @@
   <meta name="twitter:title" content="SilverLink — Community Help for Seniors">
   <meta property="og:description" content="SilverLink is a friendly tech help community designed for older adults.">
   <meta name="twitter:description" content="SilverLink is a friendly tech help community designed for older adults.">
+  <!-- Apply saved preferences before first paint to avoid header/layout reflow (CSS targets html) -->
+  <script>
+    (function () {
+      try {
+        if (localStorage.getItem("silverlink-comfort-text") === "1") {
+          document.documentElement.classList.add("text-size-large");
+        }
+      } catch (e) {}
+      try {
+        var bg = localStorage.getItem("silverlink-bg-intensity");
+        document.documentElement.setAttribute("data-bg-intensity", bg === "intense" ? "intense" : "calm");
+      } catch (e) {}
+    })();
+  </script>
 </head>
 
   <body>

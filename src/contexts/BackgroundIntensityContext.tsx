@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useEffect, useState, useCallback } from "react";
+import React, { createContext, useContext, useLayoutEffect, useState, useCallback } from "react";
 
 type Intensity = "calm" | "intense";
 
@@ -23,9 +23,13 @@ export const BackgroundIntensityProvider: React.FC<{ children: React.ReactNode }
     return saved === "intense" ? "intense" : "calm";
   });
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     document.documentElement.dataset.bgIntensity = intensity;
-    window.localStorage.setItem(STORAGE_KEY, intensity);
+    try {
+      window.localStorage.setItem(STORAGE_KEY, intensity);
+    } catch {
+      /* ignore */
+    }
   }, [intensity]);
 
   const toggleIntensity = useCallback(() => {
