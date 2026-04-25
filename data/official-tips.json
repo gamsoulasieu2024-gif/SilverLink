@@ -1,0 +1,26 @@
+[
+  {
+    "id": "tip-1",
+    "title": "Banks and texts",
+    "category": "Scams & Safety",
+    "body": "Your bank will not ask you to log in or confirm details via a link in a random text. When in doubt, call the number on the back of your card — not a number in the message."
+  },
+  {
+    "id": "tip-2",
+    "title": "One strong password or a manager",
+    "category": "Passwords & Accounts",
+    "body": "Reusing a simple password is risky. A password manager (often built into your phone) lets you have different, strong passwords without memorising all of them."
+  },
+  {
+    "id": "tip-3",
+    "title": "Video calls: check the icon",
+    "category": "Video Calls",
+    "body": "In most apps, a camera icon starts a video call and a phone icon is audio only. If you are unsure, ask the other person to call you so you can learn together."
+  },
+  {
+    "id": "tip-4",
+    "title": "App permissions",
+    "category": "Apps & Phone Settings",
+    "body": "If an app asks for your location, microphone, or photos, ask yourself whether the app really needs it. You can always change this later in Settings."
+  }
+]

@@ -3,6 +3,7 @@ import { Link, useSearchParams } from "react-router-dom";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { useLocalThreadsContext } from "@/contexts/LocalThreadsContext";
 import { getUserById, getFirstName, CATEGORY_ORDER } from "@/lib/silverlink-data";
+import { getCategoryEmoji } from "@/lib/category-emoji";
 import { CategoryBadge } from "@/components/CategoryBadge";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
@@ -55,15 +56,14 @@ const Browse = () => {
   return (
     <main className="bg-white px-4 py-10 text-[#2C2C2A] md:px-6 md:py-16">
       <div className="mx-auto max-w-3xl">
-        <h1 className="mb-2 text-3xl font-medium text-[#2C2C2A]">Browse questions</h1>
+        <h1 className="mb-2 text-3xl font-medium text-[#2C2C2A]">📋 Browse questions</h1>
         <p className="mb-8 text-base leading-[1.75] text-[#5F5E5A] max-w-[680px]">
-          Every thread is from someone like you. Filter by topic or sort to find the most helpful
-          answers.
+          👥 Every thread is from someone like you. Filter by topic or sort to find the most helpful answers.
         </p>
 
         <div className="mb-6 flex min-h-[3rem] flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
           <div>
-            <p className="mb-2 text-sm font-medium text-[#5F5E5A]">Filter by category</p>
+            <p className="mb-2 text-sm font-medium text-[#5F5E5A]">🏷️ Filter by category</p>
             <div className="flex flex-wrap gap-2">
               {categories.map((c) => (
                 <button
@@ -71,45 +71,46 @@ const Browse = () => {
                   type="button"
                   onClick={() => setCategory(c)}
                   className={cn(
-                    "rounded-lg border px-3 py-2 text-base font-medium transition-colors duration-200 min-h-[2.5rem]",
+                    "inline-flex items-center gap-1.5 rounded-lg border px-3 py-2 text-base font-medium transition-colors duration-200 min-h-[2.5rem]",
                     c === category
                       ? "border-[#1D9E75] bg-[#1D9E75] text-white"
                       : "border-[#E8E7E0] bg-white text-[#2C2C2A] hover:border-[#1D9E75]/50"
                   )}
                 >
+                  <span aria-hidden>{getCategoryEmoji(c === ALL_LABEL ? "All" : c)}</span>
                   {c}
                 </button>
               ))}
             </div>
           </div>
           <div>
-            <p className="mb-2 text-sm font-medium text-[#5F5E5A]">Sort by</p>
+            <p className="mb-2 text-sm font-medium text-[#5F5E5A]">↕️ Sort by</p>
             <div className="flex flex-wrap gap-2">
               <Button
                 type="button"
                 variant="outline"
                 onClick={() => setSort("helpful")}
                 className={cn(
-                  "h-auto rounded-lg border px-4 py-2 text-base font-medium min-h-[2.5rem] shadow-none",
+                  "h-auto gap-1.5 rounded-lg border px-4 py-2 text-base font-medium min-h-[2.5rem] shadow-none",
                   sort === "helpful"
                     ? "border-[#1D9E75] bg-[#E3F5EC] text-[#1D9E75]"
                     : "border-[#E8E7E0] text-[#2C2C2A] hover:bg-[#F8F8F6]"
                 )}
               >
-                Most helpful
+                <span aria-hidden>👍</span> Most helpful
               </Button>
               <Button
                 type="button"
                 variant="outline"
                 onClick={() => setSort("recent")}
                 className={cn(
-                  "h-auto rounded-lg border px-4 py-2 text-base font-medium min-h-[2.5rem] shadow-none",
+                  "h-auto gap-1.5 rounded-lg border px-4 py-2 text-base font-medium min-h-[2.5rem] shadow-none",
                   sort === "recent"
                     ? "border-[#1D9E75] bg-[#E3F5EC] text-[#1D9E75]"
                     : "border-[#E8E7E0] text-[#2C2C2A] hover:bg-[#F8F8F6]"
                 )}
               >
-                Most recent
+                <span aria-hidden>🕐</span> Most recent
               </Button>
             </div>
           </div>
@@ -145,7 +146,7 @@ const Browse = () => {
                     <span className="text-base text-[#5F5E5A]">{t.date}</span>
                   </div>
                   <p className="text-base text-[#5F5E5A]">
-                    {t.answers.length} {t.answers.length === 1 ? "answer" : "answers"} ·{" "}
+                    💬 {t.answers.length} {t.answers.length === 1 ? "answer" : "answers"} · 👍{" "}
                     {t.helpful_count} found this helpful
                   </p>
                 </Link>
@@ -156,7 +157,7 @@ const Browse = () => {
 
         {display.length === 0 && (
           <p className="rounded-xl border border-[#E8E7E0] bg-[#F8F8F6] p-6 text-center text-base text-[#5F5E5A]">
-            No questions in this category yet. Try another filter or ask the first one.
+            📭 No questions in this category yet. Try another filter or ✏️ ask the first one.
           </p>
         )}
       </div>

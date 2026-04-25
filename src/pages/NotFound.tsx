@@ -11,7 +11,7 @@ const NotFound = () => {
   return (
     <div className="flex min-h-[50vh] items-center justify-center bg-white px-4 py-16">
       <div className="max-w-md text-center">
-        <h1 className="mb-4 text-2xl font-medium text-[#2C2C2A]">Page not found</h1>
+        <h1 className="mb-4 text-2xl font-medium text-[#2C2C2A]">🤷 Page not found</h1>
         <p className="mb-6 text-base leading-[1.75] text-[#5F5E5A]">That page does not exist or has moved.</p>
         <Link
           to="/"

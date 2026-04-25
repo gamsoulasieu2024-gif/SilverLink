@@ -1,12 +1,10 @@
 import { Link } from "react-router-dom";
 
 const links = [
-  { to: "/#about", label: "About" },
-  { to: "/#contact", label: "Contact" },
-  { to: "/#safety", label: "Safety Policy" },
-  { to: "/#privacy", label: "Privacy" },
-  { to: "/#report", label: "Report a concern" },
-];
+  { to: "/safety", label: "🛡️ Safety & trust" },
+  { to: "/#about", label: "ℹ️ About" },
+  { to: "/#contact", label: "📧 Contact" },
+] as const;
 
 export function SiteFooter() {
   return (
@@ -29,7 +27,16 @@ export function SiteFooter() {
           ))}
         </nav>
         <p className="text-base font-medium leading-[1.75] text-[#2C2C2A]">
-          SilverLink — Simple help. Real people. Safe answers.
+          💬 SilverLink — Simple help. Real people. Safe answers.
+        </p>
+        <p className="no-print mt-4 text-sm text-[#5F5E5A]">
+          <a
+            href={`${import.meta.env.BASE_URL}rss.xml`}
+            className="font-medium text-[#1D9E75] hover:underline"
+          >
+            RSS — recent questions
+          </a>{" "}
+          for news readers
         </p>
       </div>
     </footer>

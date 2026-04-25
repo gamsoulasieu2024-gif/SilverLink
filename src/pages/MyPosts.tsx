@@ -10,7 +10,7 @@ const MyPosts = () => {
   return (
     <main className="bg-white px-4 py-10 text-[#2C2C2A] md:px-6 md:py-16">
       <div className="mx-auto max-w-3xl">
-        <h1 className="mb-2 text-3xl font-medium text-[#2C2C2A]">My questions</h1>
+        <h1 className="mb-2 text-3xl font-medium text-[#2C2C2A]">📋 My questions</h1>
         <p className="mb-8 text-base leading-[1.75] text-[#5F5E5A] max-w-[680px]">
           Questions you have posted in this browser appear here. Sign in to sync across devices (coming
           soon).
