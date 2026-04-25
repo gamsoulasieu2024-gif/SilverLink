@@ -1,0 +1,370 @@
+[
+  {
+    "id": "t1",
+    "category": "Scams & Safety",
+    "question": "I got a text saying my bank account has been suspended and I need to click a link. Is this real? I am very worried.",
+    "asked_by": "u4",
+    "date": "2 hours ago",
+    "helpful_count": 47,
+    "answers": [
+      {
+        "id": "a1",
+        "answered_by": "u1",
+        "verified_helper": true,
+        "date": "1 hour ago",
+        "helpful_count": 41,
+        "text": "Please do not click that link. This is almost certainly a scam — it is called a phishing message. Real banks will never ask you to click a link in a text message. Here is what to do instead: 1) Do not click anything. 2) Call your bank directly using the number on the back of your bank card. 3) Tell them what you received. You can also forward the message to 7726 (free) which reports it to your phone provider. You have done the right thing by asking first."
+      },
+      {
+        "id": "a2",
+        "answered_by": "u3",
+        "verified_helper": true,
+        "date": "45 minutes ago",
+        "helpful_count": 18,
+        "text": "Margaret is absolutely right. I would also suggest taking a screenshot of the message before deleting it, in case your bank wants to see it. And please do not worry — you have not done anything wrong by receiving it. These are sent to millions of people every day."
+      }
+    ]
+  },
+  {
+    "id": "t2",
+    "category": "Passwords & Accounts",
+    "question": "I keep forgetting my password for my email. Every time I reset it I forget the new one too. Is there a better way to manage this?",
+    "asked_by": "u6",
+    "date": "1 day ago",
+    "helpful_count": 63,
+    "answers": [
+      {
+        "id": "a3",
+        "answered_by": "u5",
+        "verified_helper": true,
+        "date": "23 hours ago",
+        "helpful_count": 55,
+        "text": "You are not alone — this is one of the most common problems people ask about here. The solution is something called a password manager. It remembers all your passwords for you and you only need to remember one. I recommend starting with the one built into your phone: on iPhone it is called iCloud Keychain, on Android it is called Google Password Manager. Both are free. Would you like step-by-step instructions for whichever phone you have?"
+      }
+    ]
+  },
+  {
+    "id": "t3",
+    "category": "Video Calls",
+    "question": "How do I do a video call on WhatsApp? I can only see a phone icon and do not know which one to press.",
+    "asked_by": "u8",
+    "date": "3 days ago",
+    "helpful_count": 38,
+    "answers": [
+      {
+        "id": "a4",
+        "answered_by": "u7",
+        "verified_helper": true,
+        "date": "3 days ago",
+        "helpful_count": 34,
+        "text": "Great question! Here are the steps: 1) Open WhatsApp and go to the conversation with the person you want to call. 2) Look at the top right corner of the screen — you will see two icons. One looks like a phone (voice call) and one looks like a video camera (video call). 3) Tap the video camera icon. 4) It will ring them and if they answer you will be able to see each other. Make sure you are in a room with good light so they can see your face clearly. That is all there is to it!"
+      }
+    ]
+  },
+  {
+    "id": "t4",
+    "category": "Apps & Phone Settings",
+    "question": "My phone updated overnight and now everything looks different. I cannot find the WhatsApp icon anywhere. Did I lose everything?",
+    "asked_by": "u2",
+    "date": "5 days ago",
+    "helpful_count": 29,
+    "answers": [
+      {
+        "id": "a5",
+        "answered_by": "u1",
+        "verified_helper": true,
+        "date": "5 days ago",
+        "helpful_count": 27,
+        "text": "Do not worry — you have not lost anything. Updates sometimes move apps to different pages or folders. Try this: 1) Swipe down from the middle of your screen (on iPhone) or from the top (on Android). A search bar will appear. 2) Type WhatsApp and it will find it immediately. 3) Once you find it, press and hold the icon and drag it back to your home screen so you can find it easily next time. All your messages and contacts are completely safe."
+      }
+    ]
+  },
+  {
+    "id": "t5",
+    "category": "Scams & Safety",
+    "question": "Someone called me saying they were from Microsoft and that my computer has a virus. They wanted me to download something. I hung up — was that the right thing to do?",
+    "asked_by": "u4",
+    "date": "1 week ago",
+    "helpful_count": 82,
+    "answers": [
+      {
+        "id": "a6",
+        "answered_by": "u3",
+        "verified_helper": true,
+        "date": "1 week ago",
+        "helpful_count": 79,
+        "text": "You did exactly the right thing by hanging up. This is one of the most common scams in the world — it is called a tech support scam. Microsoft, Apple, Google, and any other tech company will never call you out of the blue about a virus. If you had downloaded what they asked, they would have taken control of your computer and possibly your bank details. You should feel very proud of yourself for trusting your instincts. Please tell your friends and family about this one — it catches a lot of people."
+      }
+    ]
+  },
+  {
+    "id": "t6",
+    "category": "Passwords & Accounts",
+    "question": "I want to create a new email account but the password I tried was rejected. It says I need a special character. What does that mean?",
+    "asked_by": "u6",
+    "date": "2 weeks ago",
+    "helpful_count": 44,
+    "answers": [
+      {
+        "id": "a7",
+        "answered_by": "u5",
+        "verified_helper": true,
+        "date": "2 weeks ago",
+        "helpful_count": 40,
+        "text": "A special character is simply a symbol like ! @ # $ % & * or ?. So for example if your password was sunshine7 you could make it sunshine7! and that would pass. A good easy formula to remember: take a word you like, add a number, then add an exclamation mark at the end. For example: Garden23! — easy to remember, meets most password rules. Write it down on paper and keep it somewhere safe at home."
+      }
+    ]
+  },
+  {
+    "id": "t7",
+    "category": "Apps & Phone Settings",
+    "question": "My phone keeps asking me to allow an app to access my location. Should I say yes or no? I do not understand what this means.",
+    "asked_by": "u2",
+    "date": "2 weeks ago",
+    "helpful_count": 51,
+    "answers": [
+      {
+        "id": "a8",
+        "answered_by": "u7",
+        "verified_helper": true,
+        "date": "2 weeks ago",
+        "helpful_count": 48,
+        "text": "This is a great question and it is smart to ask before agreeing. Here is a simple rule: only say yes to location access if the app genuinely needs it to work. For example: Maps needs your location to give you directions — say yes. A recipe app asking for location — say no, it has no reason to know where you are. When in doubt, tap 'Only while using the app' which is the safest middle option. You can always change this later in your phone settings under Privacy."
+      }
+    ]
+  },
+  {
+    "id": "t8",
+    "category": "Video Calls",
+    "question": "My grandchildren want to FaceTime me but I have an Android phone. Is there a way to do this or do I need an iPhone?",
+    "asked_by": "u8",
+    "date": "3 weeks ago",
+    "helpful_count": 36,
+    "answers": [
+      {
+        "id": "a9",
+        "answered_by": "u1",
+        "verified_helper": true,
+        "date": "3 weeks ago",
+        "helpful_count": 33,
+        "text": "Good news — Apple recently made FaceTime available on Android but only if your grandchildren send you a link to join. Ask them to start a FaceTime call and tap the share link option, then send it to you on WhatsApp. You tap the link and it opens in your browser — no app needed. Alternatively, the easiest solution for cross-device video calls is WhatsApp video call or Google Meet, both of which work on any phone. Would you like help setting up either one?"
+      }
+    ]
+  },
+  {
+    "id": "t9",
+    "category": "Scams & Safety",
+    "question": "I received an email saying I have won a prize and need to provide my bank details to receive it. My grandson says it is a scam. Is he right?",
+    "asked_by": "u4",
+    "date": "3 weeks ago",
+    "helpful_count": 91,
+    "answers": [
+      {
+        "id": "a10",
+        "answered_by": "u3",
+        "verified_helper": true,
+        "date": "3 weeks ago",
+        "helpful_count": 88,
+        "text": "Your grandson is absolutely right. This is called an advance fee scam or prize scam and it is one of the oldest tricks there is. The rule is simple: if you did not enter a competition, you cannot have won one. No legitimate prize ever asks for your bank details to deliver winnings. Please delete the email and do not reply. If you already replied or gave any information please let us know and we can advise what to do next."
+      }
+    ]
+  },
+  {
+    "id": "t10",
+    "category": "Passwords & Accounts",
+    "question": "I got locked out of my Facebook account. It is asking for a code sent to an old phone number I no longer have. What can I do?",
+    "asked_by": "u2",
+    "date": "1 month ago",
+    "helpful_count": 57,
+    "answers": [
+      {
+        "id": "a11",
+        "answered_by": "u5",
+        "verified_helper": true,
+        "date": "1 month ago",
+        "helpful_count": 52,
+        "text": "This happens to many people. Facebook has a recovery process for exactly this situation. Here are the steps: 1) Go to facebook.com and click Forgot Password. 2) Enter your email address instead of the phone number. 3) If that does not work, look for the option that says 'No longer have access to these?' 4) Follow the identity verification steps — Facebook may ask you to confirm your name or upload a photo ID. It can take a few days but they do restore access. If you are still stuck after trying these steps, reply here and I will walk you through it more specifically."
+      }
+    ]
+  },
+  {
+    "id": "t11",
+    "category": "Apps & Phone Settings",
+    "question": "My phone battery runs out very quickly now. It used to last all day but now I need to charge it twice. What is draining it?",
+    "asked_by": "u6",
+    "date": "1 month ago",
+    "helpful_count": 43,
+    "answers": [
+      {
+        "id": "a12",
+        "answered_by": "u7",
+        "verified_helper": true,
+        "date": "1 month ago",
+        "helpful_count": 39,
+        "text": "A few common causes and easy fixes: 1) Screen brightness — turn it down to about 50%, this makes the biggest difference. 2) Apps running in the background — go to Settings, Battery, and it will show you which apps are using the most power. 3) Location services running constantly — go to Settings, Privacy, Location, and turn off location for any apps that do not need it. 4) If your phone is more than 3 years old, the battery itself may need replacing — most phone shops can do this for around £30–50. Try the screen brightness first as that usually helps immediately."
+      }
+    ]
+  },
+  {
+    "id": "t12",
+    "category": "Scams & Safety",
+    "question": "How can I tell if a website is safe to buy something from? I want to order a birthday gift online but I am nervous about giving my card details.",
+    "asked_by": "u8",
+    "date": "1 month ago",
+    "helpful_count": 67,
+    "answers": [
+      {
+        "id": "a13",
+        "answered_by": "u1",
+        "verified_helper": true,
+        "date": "1 month ago",
+        "helpful_count": 61,
+        "text": "A very sensible thing to check before buying. Here is a simple checklist: 1) Look for a padlock icon in the address bar at the top of your browser — this means the connection is secure. 2) The website address should start with https not just http — the s stands for secure. 3) Search for the company name plus the word reviews on Google before buying. 4) Stick to well-known sites when possible (Amazon, John Lewis, Marks and Spencer etc.). 5) Never buy from a site that only accepts bank transfer — always use a credit or debit card as these have fraud protection. Following these steps will keep you safe for the vast majority of online shopping."
+      }
+    ]
+  },
+  {
+    "id": "t13",
+    "category": "Video Calls",
+    "question": "During my video calls my family say they can hear an echo of their own voice. How do I fix this?",
+    "asked_by": "u2",
+    "date": "6 weeks ago",
+    "helpful_count": 28,
+    "answers": [
+      {
+        "id": "a14",
+        "answered_by": "u3",
+        "verified_helper": true,
+        "date": "6 weeks ago",
+        "helpful_count": 25,
+        "text": "The echo is caused by your microphone picking up sound from your speaker and sending it back. The easiest fix is to use headphones or earphones during the call — even the basic ones that came with your phone will stop the echo completely. If you do not have earphones, try turning your speaker volume down a little. Also make sure there is only one device in the room making the call — sometimes people accidentally join from both their phone and their tablet at the same time which causes a very loud echo."
+      }
+    ]
+  },
+  {
+    "id": "t14",
+    "category": "Apps & Phone Settings",
+    "question": "An app I never downloaded appeared on my phone. Should I be worried? Could someone have hacked me?",
+    "asked_by": "u4",
+    "date": "6 weeks ago",
+    "helpful_count": 39,
+    "answers": [
+      {
+        "id": "a15",
+        "answered_by": "u5",
+        "verified_helper": true,
+        "date": "6 weeks ago",
+        "helpful_count": 35,
+        "text": "Try not to panic — this is usually not a hack. The most common causes are: 1) A phone update that added a new built-in app automatically. 2) An app you already have that installed a companion app. 3) A family member or shop assistant who set up your phone added it. To be safe, do not open the app. Instead: look up the app name on Google to see what it is. If it looks unfamiliar or suspicious, press and hold the icon and tap Uninstall or Delete. If you are still unsure, tell us the name of the app and we can help you identify it."
+      }
+    ]
+  },
+  {
+    "id": "t15",
+    "category": "Passwords & Accounts",
+    "question": "What is two-factor authentication? My bank keeps asking me to set it up and I do not know what it is.",
+    "asked_by": "u6",
+    "date": "2 months ago",
+    "helpful_count": 74,
+    "answers": [
+      {
+        "id": "a16",
+        "answered_by": "u7",
+        "verified_helper": true,
+        "date": "2 months ago",
+        "helpful_count": 70,
+        "text": "Two-factor authentication (often called 2FA) is simply a second check to make sure it is really you logging in. Here is how it works: 1) You enter your password as normal. 2) The bank then sends a short code (usually 6 digits) to your phone by text message. 3) You type that code in and you are logged in. The idea is that even if someone else guesses your password, they still cannot get in because they do not have your phone. It feels like an extra step but it is the single best thing you can do to protect your bank account online. I would strongly recommend setting it up — your bank's customer service can walk you through it on the phone if you prefer."
+      }
+    ]
+  },
+  {
+    "id": "t16",
+    "category": "Apps & Phone Settings",
+    "question": "I accidentally deleted some photos from my phone. Is there any way to get them back?",
+    "asked_by": "u8",
+    "date": "2 months ago",
+    "helpful_count": 88,
+    "answers": [
+      {
+        "id": "a17",
+        "answered_by": "u1",
+        "verified_helper": true,
+        "date": "2 months ago",
+        "helpful_count": 84,
+        "text": "Good news — they are almost certainly still there. On iPhone: open the Photos app, scroll down in the left menu to Recently Deleted. Your photos stay there for 30 days before being permanently deleted. Tap the ones you want back and tap Recover. On Android: open Google Photos, tap the three lines menu on the left, tap Bin or Trash. Same thing — 30 days to recover. If it has been longer than 30 days and you have iCloud or Google Photos backup turned on, they may still be in your cloud backup. Let us know which phone you have and how long ago you deleted them and we can look into it further."
+      }
+    ]
+  },
+  {
+    "id": "t17",
+    "category": "Scams & Safety",
+    "question": "My friend told me someone pretended to be her son on WhatsApp and asked for money. How does this work and how do I protect myself?",
+    "asked_by": "u2",
+    "date": "2 months ago",
+    "helpful_count": 103,
+    "answers": [
+      {
+        "id": "a18",
+        "answered_by": "u3",
+        "verified_helper": true,
+        "date": "2 months ago",
+        "helpful_count": 98,
+        "text": "This is called a family impersonation scam or hi mum scam and it is very common. Here is how it works: a scammer sends a message pretending to be a family member from a new number, saying they lost their phone and need money urgently. To protect yourself: 1) If you get a message from an unknown number claiming to be family, call them on their real known number immediately to verify. 2) Never transfer money based on a text message alone, no matter how urgent it sounds. 3) Set up a family safe word — a secret word only your family knows that you can ask for if something seems suspicious. Please share this with your friend too — she should contact her bank immediately if money was transferred."
+      }
+    ]
+  },
+  {
+    "id": "t18",
+    "category": "Video Calls",
+    "question": "I want to join a Zoom call for a family reunion but I have never used Zoom before. Where do I even start?",
+    "asked_by": "u4",
+    "date": "2 months ago",
+    "helpful_count": 55,
+    "answers": [
+      {
+        "id": "a19",
+        "answered_by": "u5",
+        "verified_helper": true,
+        "date": "2 months ago",
+        "helpful_count": 51,
+        "text": "Joining a Zoom call is actually quite simple. Here is all you need to do: 1) Ask the person organising the reunion to send you the Zoom link — it will look something like zoom.us/j/123456789. 2) On your phone, tap the link. If asked, download the free Zoom app. 3) When you tap Join, it will ask for your name — type your name so family can see who is on the call. 4) When prompted, tap Allow for camera and microphone so people can see and hear you. 5) You are in! You do not need to create an account just to join someone else's call. Tip: do a test run the day before by clicking the link early — this way you know everything works before the big day."
+      }
+    ]
+  },
+  {
+    "id": "t19",
+    "category": "Apps & Phone Settings",
+    "question": "My texts are going green instead of blue when I message my daughter. Did something break?",
+    "asked_by": "u6",
+    "date": "3 months ago",
+    "helpful_count": 31,
+    "answers": [
+      {
+        "id": "a20",
+        "answered_by": "u7",
+        "verified_helper": true,
+        "date": "3 months ago",
+        "helpful_count": 29,
+        "text": "Nothing is broken — this is just how iPhones show the difference between two types of messages. Blue bubbles mean the message is sent as iMessage (Apple's own system, free, works over wifi or data, only between iPhones). Green bubbles mean it is sent as a regular SMS text message (the kind that any phone can receive). This usually happens when your daughter's iPhone is turned off, her internet is not working, or she has switched to an Android phone. The message still arrives either way. If she has a new Android phone that explains the change — and you can still reach her perfectly fine, it just looks different."
+      }
+    ]
+  },
+  {
+    "id": "t20",
+    "category": "Passwords & Accounts",
+    "question": "Is it safe to save my passwords in my browser? My computer offers to remember them every time I log in.",
+    "asked_by": "u8",
+    "date": "3 months ago",
+    "helpful_count": 48,
+    "answers": [
+      {
+        "id": "a21",
+        "answered_by": "u1",
+        "verified_helper": true,
+        "date": "3 months ago",
+        "helpful_count": 44,
+        "text": "For most people, yes — saving passwords in your browser (Chrome, Safari, Firefox) is safe and much better than reusing the same weak password everywhere. The passwords are encrypted and protected by your device's login. A few sensible precautions: 1) Make sure your computer or phone has a screen lock password — this prevents anyone who picks up your device from accessing your saved passwords. 2) Never save passwords on a shared computer such as one at a library or hotel. 3) For extra security, consider using a dedicated password manager app like Bitwarden (free) which works across all your devices. But honestly — saving in your browser is a perfectly good starting point and far safer than a sticky note on your monitor."
+      }
+    ]
+  }
+]

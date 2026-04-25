@@ -1,0 +1,90 @@
+[
+  {
+    "id": "u1",
+    "name": "Margaret Davies",
+    "age": 68,
+    "location": "Manchester, UK",
+    "avatar": "https://randomuser.me/api/portraits/women/68.jpg",
+    "bio": "Retired schoolteacher. I learned to use a smartphone three years ago and I'm still learning every day.",
+    "joined": "March 2024",
+    "answers_given": 43,
+    "verified_helper": true
+  },
+  {
+    "id": "u2",
+    "name": "Graham Fletcher",
+    "age": 71,
+    "location": "Bristol, UK",
+    "avatar": "https://randomuser.me/api/portraits/men/71.jpg",
+    "bio": "Retired electrician. I ask more questions than I answer but everyone here has been so patient.",
+    "joined": "January 2024",
+    "answers_given": 4,
+    "verified_helper": false
+  },
+  {
+    "id": "u3",
+    "name": "Rosa Martínez",
+    "age": 65,
+    "location": "Barcelona, Spain",
+    "avatar": "https://randomuser.me/api/portraits/women/65.jpg",
+    "bio": "Recently retired nurse. I help my neighbours with their phones and now I help people here too.",
+    "joined": "February 2024",
+    "answers_given": 87,
+    "verified_helper": true
+  },
+  {
+    "id": "u4",
+    "name": "Hans Bauer",
+    "age": 74,
+    "location": "Hamburg, Germany",
+    "avatar": "https://randomuser.me/api/portraits/men/74.jpg",
+    "bio": "Former accountant. I use my iPad every day. Still figuring out some things but I get there.",
+    "joined": "April 2024",
+    "answers_given": 12,
+    "verified_helper": false
+  },
+  {
+    "id": "u5",
+    "name": "Yvonne Petit",
+    "age": 69,
+    "location": "Lyon, France",
+    "avatar": "https://randomuser.me/api/portraits/women/69.jpg",
+    "bio": "Retired librarian. I love helping people find answers — now I do it online instead of in person.",
+    "joined": "December 2023",
+    "answers_given": 121,
+    "verified_helper": true
+  },
+  {
+    "id": "u6",
+    "name": "Peter Kowalski",
+    "age": 77,
+    "location": "Warsaw, Poland",
+    "avatar": "https://randomuser.me/api/portraits/men/77.jpg",
+    "bio": "Retired engineer. My granddaughter showed me this site and I have already learned so much.",
+    "joined": "May 2024",
+    "answers_given": 2,
+    "verified_helper": false
+  },
+  {
+    "id": "u7",
+    "name": "Diane Moreau",
+    "age": 63,
+    "location": "Brussels, Belgium",
+    "avatar": "https://randomuser.me/api/portraits/women/63.jpg",
+    "bio": "Just retired last year. Still working out what I do and don't know about technology.",
+    "joined": "June 2024",
+    "answers_given": 19,
+    "verified_helper": true
+  },
+  {
+    "id": "u8",
+    "name": "Antonio Ricci",
+    "age": 72,
+    "location": "Milan, Italy",
+    "avatar": "https://randomuser.me/api/portraits/men/72.jpg",
+    "bio": "Former restaurant owner. I use WhatsApp to stay in touch with my family. Learning more every week.",
+    "joined": "March 2024",
+    "answers_given": 8,
+    "verified_helper": false
+  }
+]
