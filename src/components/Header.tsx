@@ -48,9 +48,17 @@ const Header = () => {
         <div className="flex min-h-[3rem] items-center justify-between gap-2">
           <Link
             to="/"
-            className="shrink-0 text-lg font-medium text-[#1D9E75] transition-opacity duration-200 hover:opacity-90 sm:text-xl"
+            className="inline-flex shrink-0 items-center gap-2 text-lg font-medium text-[#1D9E75] transition-opacity duration-200 hover:opacity-90 sm:gap-2.5 sm:text-xl"
           >
-            💬 SilverLink
+            <img
+              src={`${import.meta.env.BASE_URL}logo.svg`}
+              alt=""
+              width={40}
+              height={40}
+              className="h-9 w-9 shrink-0 sm:h-10 sm:w-10"
+              decoding="async"
+            />
+            <span>SilverLink</span>
           </Link>
 
           <div className="hidden min-w-0 items-center justify-end gap-1 sm:gap-1.5 md:flex md:flex-nowrap">
@@ -148,7 +156,17 @@ const Header = () => {
           aria-label="Navigation menu"
         >
           <div className="flex h-[3.5rem] shrink-0 items-center justify-between border-b border-[#E8E7E0] px-4">
-            <span className="text-lg font-medium text-[#1D9E75] sm:text-xl">💬 SilverLink</span>
+            <span className="inline-flex items-center gap-2 text-lg font-medium text-[#1D9E75] sm:gap-2.5 sm:text-xl">
+              <img
+                src={`${import.meta.env.BASE_URL}logo.svg`}
+                alt=""
+                width={40}
+                height={40}
+                className="h-9 w-9 shrink-0 sm:h-10 sm:w-10"
+                decoding="async"
+              />
+              <span>SilverLink</span>
+            </span>
             <Button
               type="button"
               variant="ghost"

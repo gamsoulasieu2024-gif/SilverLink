@@ -26,8 +26,16 @@ export function SiteFooter() {
             </span>
           ))}
         </nav>
-        <p className="text-base font-medium leading-[1.75] text-[#2C2C2A]">
-          💬 SilverLink — Simple help. Real people. Safe answers.
+        <p className="flex flex-wrap items-center justify-center gap-2 text-base font-medium leading-[1.75] text-[#2C2C2A]">
+          <img
+            src={`${import.meta.env.BASE_URL}logo.svg`}
+            alt=""
+            width={36}
+            height={36}
+            className="h-8 w-8 shrink-0"
+            decoding="async"
+          />
+          <span>SilverLink — Simple help. Real people. Safe answers.</span>
         </p>
         <p className="no-print mt-4 text-sm text-[#5F5E5A]">
           <a
